@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['object']
+
+roboflow:
+  workspace: computer-vision-v3mux
+  project: placa-de-carro-oz0eg-ghtdb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-v3mux/placa-de-carro-oz0eg-ghtdb/dataset/2
