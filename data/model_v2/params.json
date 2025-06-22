@@ -1,0 +1,12 @@
+{
+    "version": "2.0",
+    "description": "This file contains the parameters for the model version 2.0.",
+    "parameters": {
+        "pre_trained_model": "yolo11n.pt",
+        "project": "model",
+        "name": "detection_v2",
+        "model_path": "data/model_v2",
+        "epochs": 100,
+        "batch_size": 16
+    }
+}   

@@ -6,7 +6,7 @@ class YOLOTrainer:
         self.model_path = model_path
         self.model = YOLO(model_path, task='detect')
 
-    def train(self, project:str, data_path: str, epochs: int = 100, batch_size: int = 16):
+    def train(self, project:str, name: str, data_path: str, epochs: int = 100, batch_size: int = 16):
         """
         Train the YOLO model.
         """
@@ -15,6 +15,7 @@ class YOLOTrainer:
             epochs=epochs,
             batch=batch_size,
             project=project,
+            name=name,
         )
 
     def evaluate(self, data_path: str):
