@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     # Run the training and evaluation pipeline
     run_pipeline(
-        model_path=model_path,
+        model_path="data/" + model_path,
         data_path=data_path,
         project=project,
         name=name,
