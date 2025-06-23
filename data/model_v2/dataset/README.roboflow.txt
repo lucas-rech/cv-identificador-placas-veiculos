@@ -1,8 +1,8 @@
 
-Placa de carro  - v2 unifying classes
+Placa de carro  - v3 adding mercosul plates
 ==============================
 
-This dataset was exported via roboflow.com on June 20, 2025 at 6:43 PM GMT
+This dataset was exported via roboflow.com on June 23, 2025 at 2:02 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 713 images.
+The dataset includes 1216 images.
 Cars-license-plate are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
