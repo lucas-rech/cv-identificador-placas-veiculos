@@ -13,7 +13,7 @@ def load_params(params_path: str):
 if __name__ == "__main__":
     # Load parameters from a JSON file. Only change this path to use a different set of parameters.
     # This file should contain the necessary parameters for the YOLO model training.
-    params = load_params("data/model_v2/params.json")
+    params = load_params("data/v2/params.json")
     
     # Define paths and parameters
     model_path = params["parameters"]["pre_trained_model"] # Path to the YOLO model

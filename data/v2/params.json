@@ -5,7 +5,7 @@
         "pre_trained_model": "yolo11n.pt",
         "project": "model",
         "name": "detection_v2",
-        "model_path": "data/model_v2",
+        "model_path": "data/v2",
         "epochs": 100,
         "batch_size": 16
     }
